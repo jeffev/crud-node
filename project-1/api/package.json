@@ -1,17 +1,22 @@
 {
   "name": "project-1",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Aplicação CRUD com nodejs e postgresql",
+  "main": "server.js",
   "scripts": {
     "dev": "nodemon",
     "lint": "eslint --ext .js, html -f ./node_modules/eslint-freindly-formatter . --fix",
     "prepush": "npm run lint",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "nodejs",
+    "postgresql",
+    "crud",
+    "node-postgres"
+  ],
+  "author": "Jefferson Valandro",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^7.7.0",
     "eslint-config-airbnb-base": "^14.2.0",
