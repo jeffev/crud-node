@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "lint": "eslint --ext .js, html -f ./node_modules/eslint-freindly-formatter . --fix",
+    "prepush": "npm run lint",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
